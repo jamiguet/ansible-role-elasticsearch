@@ -1,3 +1,3 @@
 # Ansible Role: Elasticsearch
 
-## CLONE of gerlingguy.elastic seach for personal adapatation.
+## CLONE of geerlingguy.elastic seach for personal adapatation.
