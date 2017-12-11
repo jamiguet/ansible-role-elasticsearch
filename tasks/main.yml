@@ -12,6 +12,18 @@
     owner: root
     group: elasticsearch
     mode: 0750
+  template:
+    src: jvm.options.j2
+    dest: /etc/elasticsearch/jvm.options
+    owner: root
+    group: elasticsearch
+    mode: 0750
+  template:
+    src: log4j2.properties.j2
+    dest: /etc/elasticsearch/log4j2.properties
+    owner: root
+    group: elasticsearch
+    mode: 0750
   notify: restart elasticsearch
 
 - name: Start Elasticsearch.

@@ -1,6 +1,6 @@
-[elasticsearch-6.x]
-name=Elasticsearch repository for 6.x packages
-baseurl=https://artifacts.elastic.co/packages/6.x/apt
+[elasticsearch-2.x]
+name=Elasticsearch repository for 2.x packages
+baseurl=http://packages.elastic.co/elasticsearch/2.x/centos
 gpgcheck=1
-gpgkey=http://artifacts.elastic.co/GPG-KEY-elasticsearch
+gpgkey=http://packages.elastic.co/GPG-KEY-elasticsearch
 enabled=1
